@@ -7,3 +7,10 @@ def factorial(n):
 
 a=factorial(5)
 print(a)
+
+b=input()
+try:
+    b_int=int(b)
+    print(b)
+except ValueError:
+    print("invalid")
